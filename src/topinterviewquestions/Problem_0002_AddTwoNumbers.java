@@ -1,15 +1,19 @@
 package topinterviewquestions;
 
+import java.io.Serializable;
+
+//https://leetcode-cn.com/problems/add-two-numbers/
 public class Problem_0002_AddTwoNumbers {
 
 	// 不要提交这个类描述
-	public static class ListNode {
+	public static class ListNode implements Serializable {
 		public int val;
 		public ListNode next;
 
 		public ListNode(int value) {
 			this.val = value;
 		}
+
 	}
 
 	public static ListNode addTwoNumbers(ListNode head1, ListNode head2) {

@@ -2,6 +2,7 @@ package topinterviewquestions;
 
 import java.util.HashMap;
 
+//https://leetcode-cn.com/problems/two-sum/
 public class Problem_0001_TwoSum {
 
 	public static int[] twoSum(int[] nums, int target) {
